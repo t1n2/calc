@@ -7,88 +7,87 @@
 	<title>Калькулятор</title>
 </head>
 <body>
-
-	<h1>Калькулятор</h1>
-	
+    
 	<div class="calc">
+		<h1>Калькулятор</h1>
 		<div class="calc__screen">
 			<span class="calc__result">&nbsp;</span>
 			<input class="calc__input" type="text">
 		</div>
 		<div class="calc__inner">	
-			<button class="button">
+			<button class="button" value="&larr;">
 				&larr;
 			</button>
-			<button class="button">
+			<button class="button" value="ce">
 				CE
 			</button>
-			<button class="button">
+			<button class="button" value="c">
 				C
 			</button>
-			<button class="button">
+			<button class="button" value="&plusmn;">
 				&plusmn;
 			</button>
-			<button class="button">
+			<button class="button" value="&radic;">
 				&radic;
 			</button>
-			<button class="button button--number">
+			<button class="button button--number" value="7">
 				7
 			</button>
-			<button class="button button--number">
+			<button class="button button--number" value="8">
 				8
 			</button>
-			<button class="button button--number">
+			<button class="button button--number" value="9">
 				9
 			</button>
-			<button class="button">
+			<button class="button" value="/">
 				/
 			</button>
-			<button class="button">
+			<button class="button" value="%">
 				%
 			</button>
-			<button class="button button--number">
+			<button class="button button--number" value="4">
 				4
 			</button>
-			<button class="button button--number">
+			<button class="button button--number" value="5">
 				5
 			</button>
-			<button class="button button--number">
+			<button class="button button--number" value="6">
 				6
 			</button>
-			<button class="button">
+			<button class="button" value="*">
 				*
 			</button>
-			<button class="button">
+			<button class="button" value="1x">
 				1/x
 			</button>
 			<div class="calc__cols">
 				<div class="calc__col">
-					<button class="button button--number">
+					<button class="button button--number" value="1">
 						1
 					</button>
-					<button class="button button--number">
+					<button class="button button--number" value="2">
 						2
 					</button>
-					<button class="button button--number button--double-col">
+					<button class="button button--number button--double-col" value="0">
 						0
 					</button>
 				</div>
 				<div class="calc__col">
-					<button class="button button--number">
+					<button class="button button--number" value="3">
 						3
 					</button>
-					<button class="button">
+					<button class="button" value="-">
 						-
 					</button>
-					<button class="button button--number">
+					<button class="button button--number" value=".">
 						,
 					</button>
-					<button class="button">
+					<button id="+" class="button" value="+">
 						+
 					</button>
 			    </div>
 			    <div class="calc__col">
-					<button class="button button--double-row">
+					<button class="button button--double-row" value="=">
 						=
 					</button>
 				</div>
@@ -96,6 +95,9 @@
 		</div> <!-- /.calc__inner -->
 		
 	</div> <!-- /.calc -->
+
+	<script src="script.js">
+	</script>
 
 </body>
 </html>
